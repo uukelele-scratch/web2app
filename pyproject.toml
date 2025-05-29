@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web2app"
+version = "0.0.1"
+authors = [{ name = "uukelele-scratch", email = "robustrobot11@gmail.com" }]
+description = "PyPI package for converting a website into an app."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/uukelele-scratch/web2app"
+Repository = "https://github.com/uukelele-scratch/web2app"
