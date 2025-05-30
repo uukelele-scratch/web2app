@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "web2app"
-version = "0.0.1"
+version = "1.0.0"
 authors = [{ name = "uukelele-scratch", email = "robustrobot11@gmail.com" }]
 description = "PyPI package for converting a website into an app."
 readme = "README.md"
