@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "web2app"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{ name = "uukelele-scratch", email = "robustrobot11@gmail.com" }]
 description = "PyPI package for converting a website into an app."
 readme = "README.md"
@@ -15,7 +15,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = []
+dependencies = [
+    "Pillow>=11.1.0",
+    "requests>=2.32.3",
+    "beautifulsoup4>=4.12.3"
+]
 
 [project.urls]
 Homepage = "https://github.com/uukelele-scratch/web2app"
