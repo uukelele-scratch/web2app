@@ -29,15 +29,6 @@ jobs:
           VERSION="${VERSION#v}"
           python .github/scripts/bump_version.py "$VERSION"
 
-
-      - name: Commit version bump
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add pyproject.toml
-          git commit -m "⬆️ Bump version to ${{ github.ref_name }}"
-          git push
-
       - name: Build package
         run: python -m build
 
